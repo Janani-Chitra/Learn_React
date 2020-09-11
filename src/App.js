@@ -7,12 +7,14 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import UserGreetConditionally from './components/UserGreetConditionally';
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick/>
-      <ClassClick/>
+      <UserGreetConditionally/>
+      {/* <FunctionClick/>
+      <ClassClick/> */}
       {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Greet name="Janani" >
